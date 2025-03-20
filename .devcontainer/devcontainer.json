@@ -1,0 +1,7 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "Frontend Resources Integrity Checker (FRIC)",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+}
