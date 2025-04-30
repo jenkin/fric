@@ -3,5 +3,6 @@
 {
   "name": "Frontend Resources Integrity Checker (FRIC)",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postCreateCommand": "sudo apt update && sudo apt install -y wdiff colordiff pup",
   "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
